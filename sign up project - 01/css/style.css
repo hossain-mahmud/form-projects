@@ -1,0 +1,189 @@
+/* ===== fonts link css part start ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ----- fonts link css part end ----- */
+/* ===== variables css part start ===== */
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --balck: #000;
+}
+
+/* ----- variables css part end ----- */
+/* ===== common css part start ===== */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* ----- common css part end ----- */
+/* ===== sign up css part start ===== */
+#sign_up {
+    background: url(../images/bg_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 202px 0;
+}
+
+.sign_up_form {
+    width: 404px;
+}
+
+.sign_up_head h2 {
+    font-size: 32px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    color: var(--balck);
+    margin-bottom: 63px;
+}
+
+form label {
+    font-size: 14px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    color: var(--balck);
+}
+
+.input_bar {
+    width: 404px;
+    height: 32px;
+    border-radius: 10px;
+}
+
+.input_bar::placeholder {
+    font-size: 10px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    color: #D9D9D9;
+}
+
+.checkbox_input {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.checkbox_input input {
+    border: 1px solid #000;
+}
+
+.checkbox_input label {
+    font-size: 9px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    color: var(--balck);
+}
+
+.checkbox_input a {
+    color: var(--balck);
+    text-decoration: underline;
+}
+
+.sign_up_button {
+    width: 404px;
+    height: 32px;
+    line-height: 32px;
+    background: #3A5B22;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 13px;
+    font-family: var(--poppins);
+    font-weight: 700;
+    transition: all linear .3s;
+}
+
+.sign_up_button:hover {
+    background: transparent;
+    color: #3A5B22;
+    border: 1px solid #3A5B22;
+}
+
+.or_line {
+    margin-top: 59px;
+    margin-bottom: 61px;
+}
+
+.or_line p {
+    text-align: center;
+    position: relative;
+    font-size: 9px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    color: var(--balck);
+}
+
+.or_line p::after {
+    content: '';
+    width: 190px;
+    height: 2px;
+    background: #F5F5F5;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.or_line p::before {
+    content: '';
+    width: 190px;
+    height: 2px;
+    background: #F5F5F5;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.sign_with_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign_with_button a {
+    width: 190px;
+    height: 32px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #D9D9D9;
+    text-align: center;
+    line-height: 32px;
+    font-size: 12px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    color: var(--balck);
+}
+
+.signin_text h2 {
+    margin-top: 23px;
+    text-align: center;
+    font-size: 14px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    color: var(--balck);
+}
+
+/* ----- sign up css part end ----- */
